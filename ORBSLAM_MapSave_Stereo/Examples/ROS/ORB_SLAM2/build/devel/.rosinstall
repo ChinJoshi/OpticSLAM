@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/ROS/ORB_SLAM2/build/devel/setup.sh

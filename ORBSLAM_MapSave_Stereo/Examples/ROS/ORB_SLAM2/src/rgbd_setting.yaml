@@ -1,0 +1,21 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# The Settings of ORB-SLAM2 Monocular. Adjust them to your path
+#--------------------------------------------------------------------------------------------
+
+# the Orb Vocabulary File Path. Either .bin File or .txt File is Ok.
+
+Path_Orb_Vocabulary: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Vocabulary/ORBvoc.bin
+
+# the Camera Setting File Path.
+
+Path_Cam_Setting: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/ROS/ORB_SLAM2/src/TUM1.yaml
+
+# Whether Run the ORB-SLAM2 System Using the Exsiting Map File (0 for no , 1 for yes).
+
+is_ReuseMap: 0
+
+# the Exsiting Map File Path (if the above item is 0, this is unnessesary)
+
+Path_ReuseMap: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/ROS/ORB_SLAM2/src/Slam_ROS.bin

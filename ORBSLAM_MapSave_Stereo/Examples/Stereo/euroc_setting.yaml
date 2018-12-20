@@ -1,0 +1,30 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# The Settings of ORB-SLAM2 Monocular. Adjust them to your path
+#--------------------------------------------------------------------------------------------
+
+# the Orb Vocabulary File Path. Either .bin File or .txt File is Ok.
+
+Path_Orb_Vocabulary: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Vocabulary/ORBvoc.bin
+
+# the Camera Setting File Path.
+
+Path_Cam_Setting: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/Stereo/EuRoC.yaml
+
+# Datasets file Path
+
+Path_LeftSequence: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/DataSets/Euroc/MH_05_difficult/cam0/data
+Path_RightSequence: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/DataSets/Euroc/MH_05_difficult/cam1/data
+
+#Set rgbd and depth images association File
+
+Path_TimeFile: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/Stereo/EuRoC_TimeStamps/MH05.txt
+
+# Whether Run the ORB-SLAM2 System Using the Exsiting Map File (0 for no , 1 for yes).
+
+is_ReuseMap: 1
+
+# the Exsiting Map File Path (if the above item is 0, this is unnessesary)
+
+Path_ReuseMap: /home/bingo/Documents/ORB-SLAM2/ORBSLAM_MapSave/Examples/Stereo/euroc_latest_Map.bin
